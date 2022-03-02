@@ -1,0 +1,7 @@
+{
+  "name": "loginsignupui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

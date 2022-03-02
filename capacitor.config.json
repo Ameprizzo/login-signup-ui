@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "loginsignupui",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
