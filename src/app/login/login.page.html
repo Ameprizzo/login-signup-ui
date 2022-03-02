@@ -1,3 +1,21 @@
 <ion-content>
-
+<div class="login-section ion-padding">
+  <div class="heading ion-padding">
+    <h1>Welocme To Desaonline</h1>
+    <p>Please login to continue</p>
+  </div>
+  <div class="login-form ion-padding">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email" formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" formControlName="password"></ion-input>
+      </ion-item>
+      <ion-button type="submit" [disabled]="!loginForm.valid">Login</ion-button>
+    </form>
+  </div>
+</div>
 </ion-content>
