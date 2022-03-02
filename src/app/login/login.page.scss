@@ -4,27 +4,10 @@ ion-content{
 }
 
 .login-section{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 400px;
-  padding: 20px;
-  border-radius: 10px;
+  height: 74vh;
+  width: 100%;
+  max-width: 500px;
   background: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
 }
 
-.icon{
-  position: relative;
-  top: -50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
