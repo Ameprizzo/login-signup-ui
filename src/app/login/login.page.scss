@@ -42,9 +42,8 @@ ion-content{
       }
       ion-icon{
         position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        left: 37px;
+        z-index: 2;
         font-size: 1.2rem;
         color: #7b7b7b;
       }
