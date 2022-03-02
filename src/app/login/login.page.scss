@@ -33,6 +33,24 @@ ion-content{
     }
 
   }
+  .login-form{
+    .form-input{
+      position: relative;
+      margin-bottom: 10px;
+      ion-item:part(native){
+        padding-left: 0;
+      }
+      ion-icon{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.2rem;
+        color: #7b7b7b;
+      }
+
+    }
+  }
 
 }
 
